@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: green;
     margin: 0;
     padding: 0;
 }
@@ -10,16 +9,17 @@ header {
     background-size: none;
     text-align: center;
     color: white;
-    padding: 35px 0;
+    padding: 35px 0;  
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 36px; 
 }
 
 p {
     font-size: 18px;
     margin: 20px 0;
+   
 }
 
 .container {
@@ -31,22 +31,70 @@ p {
 }
 
 footer {
-    width: 100%;
-    background-color: firebrick;
+    width: 130%;
+    background-color: black;
     display: flex;
     color: white;
     text-align: center;
     align-items: center;
-    padding: 20 0;
+    padding: 30 0;
 }
 
-.nav {
-    size: 10px;
-    color: white;
-    width: 12vw;
-    height: 12vh;
+.footer .nav {
+    width: 18vw;
+    height: 15vh;
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #007BFF;
 
 }
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    width: 130%;
+    background-color: black;
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 30 0;
+}
+
+    .footer .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
