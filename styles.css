@@ -1,1 +1,52 @@
- 
+body {
+    font-family: Arial, sans-serif;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    background-size: none;
+    text-align: center;
+    color: white;
+    padding: 35px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    width: 100%;
+    background-color: firebrick;
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 20 0;
+}
+
+.nav {
+    size: 10px;
+    color: white;
+    width: 12vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
