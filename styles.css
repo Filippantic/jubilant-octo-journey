@@ -1,7 +1,9 @@
-body {
+body { 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    width: 100w;
+    height: 100vh;
 }
 
 header {
@@ -9,11 +11,11 @@ header {
     background-size: none;
     text-align: center;
     color: white;
-    padding: 35px 0;  
+    padding: 45px 0;  
 }
 
 h1 {
-    font-size: 36px; 
+    font-size: 45px; 
 }
 
 p {
@@ -27,17 +29,17 @@ p {
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 footer {
-    width: 130%;
-    background-color: black;
+    width: 150%;
+    background-color: white;
     display: flex;
     color: white;
     text-align: center;
     align-items: center;
-    padding: 30 0;
+    padding: 0;
 }
 
 .footer .nav {
@@ -47,12 +49,18 @@ footer {
     flex-direction: column;
 }
 
+.footer .social-media figure {
+    margin: 0;
+    
+}
+
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
+    
 }
 
 header {
@@ -76,25 +84,152 @@ p {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;
+    background-color: lightskyblue;
+}
+button {
+   
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+
+    
 }
 
 main {
-    padding: 20px;
+    padding: 60px;
+    border-radius: 20px;
 }
 
-footer {
-    width: 130%;
-    background-color: black;
+.footer {
+    width: 100%;
+    background-color:white;
     display: flex;
-    color: white;
-    text-align: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 30 0;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
-    .footer .nav {
-        display: flex;
-        flex-direction: column;
+.footer .nav {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+body {
+    width: 100vw;
+    height: 80vh;
+    margin: 0;
+    background-color: #222;
+}
+
+.navigation {
+    width: 100%;
+    height: 70%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation .nav-icon {
+    margin-bottom: auto;
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.navigation .heading {
+    font-size: 5rem;
+    margin: 0;
+}
+
+
+.content {
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   gap: 32px;
+   max-width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+}
+
+.content .card {
+    grid-column: auto / span 2;
+    color: #fff;
+}
+
+.content .card img {
+    width: 100%;
+}
+
+.content .card h2 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.content .card button {
+    background-color: #E83F57;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+.footer {
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.footer .nav {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer .address p {
+    margin: 0;
+}
+
+.footer .social-media figure {
+    margin: 0;
+    
+}
+
+@media screen and (max-width: 461px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "welcome"
+        "learn"
+        "join"
+        "navigation"
+        "info"
+        "cards"
+        "about"
+        "how"
+        "up"
+        "footer";
+
+
+
+
+
+
     }
+
+    
+}
 
     
