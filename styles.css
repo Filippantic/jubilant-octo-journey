@@ -11,7 +11,7 @@ header {
     background-size: none;
     text-align: center;
     color: white;
-    padding: 45px 0;  
+    padding: 45px;  
 }
 
 h1 {
@@ -86,6 +86,7 @@ p {
     margin-bottom: 20px;
     background-color: lightskyblue;
 }
+
 button {
    
     padding: 15px 32px;
@@ -93,9 +94,7 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
-    
-
+    margin: 4px 2px; 
     
 }
 
@@ -117,12 +116,19 @@ main {
 .footer .nav {
     display: flex;
     flex-direction: column;
+    width: 18vw;
+    height: 15vh;
+           
+    }
+
+.footer .social-media figure {
+    margin: 0;
     
 }
 
 body {
     width: 100vw;
-    height: 80vh;
+    height: 60vh;
     margin: 0;
     background-color: #222;
 }
@@ -172,64 +178,22 @@ body {
 .content .card h2 {
     margin: 0;
     margin-top: 10px;
+    
 }
 
 .content .card button {
-    background-color: #E83F57;
+    background-color: cornflowerblue;
     color: #fff;
     border: none;
     padding: 5px;
     margin: 10px;
+    border-radius: 10px;
 }
 
-.footer {
-    width: 100%;
-    background-color:white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-.footer .nav {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.footer .address p {
-    margin: 0;
-}
-
-.footer .social-media figure {
-    margin: 0;
-    
-}
-
-@media screen and (max-width: 461px) {
-    .wrapper {
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "welcome"
-        "learn"
-        "join"
-        "navigation"
-        "info"
-        "cards"
-        "about"
-        "how"
-        "up"
-        "footer";
 
 
 
 
 
-
-    }
-
-    
-}
 
     
